@@ -1,0 +1,80 @@
+Assignee,Summary,Test Plan,Verification,QE Assignee,Parent Id,Labels,Issue Type,Priority
+dtogloor,"TC_12_Provision : with  Intel Xeon 8474 and RHEL 9.2, R1 Soft Addon","Verify that RHEL 9.x with R1Soft Addon  Provisioning process can be completed without errors with below configuration
+
+SERVER:  Intel Xeon 8474 Sapphire Rapids Processor, Core count 96,Features
+GPU, UEFI capable, 25GbE, NVMe, SGX
+RAM: 32GB / 256GB
+Hard Drive: NVMe primary drive and NVMe secondary storage (Any size)
+Chassis(Motherboard) :  Lenovo 
+NETWORK INTERFACE: Public and Private
+PORT SPEED: 25Gbps.                                                                                                     
+Os Addon- R1Soft                                                                                                    ","1) Login to server and check for all the configurations are avaliable as expected.                   
+2) For Addon, verify you can log into the web interface using the login details from the HWO
+3) For Addon, verify the software has the correct license installed after login in the addon web interface.",dtogloor,QEPVER-287,IQE-Project-Testing,Test Case,Major
+dtogloor,"TC_13_Provision : with Cascade Lake Processor Intel Xeon 4210 and RHEL 9.2, R1 Soft Addon","Verify that RHEL 9.x with R1Soft Addon   Provisioning process can be completed without errors with below configuration
+
+SERVER:  Cascade Lake Processor Intel Xeon 4210
+RAM: 32GB
+Hard Drive: SSD primary drive and NVMe secondary storage (Any size)
+Chassis(Motherboard) :  Lenovo 
+NETWORK INTERFACE: Private and Private
+PORT SPEED: 10Gbps.                                                                                                     
+Os Addon- R1Soft                                                                                                    ","1) Login to server and check for all the configurations are avaliable as expected.                   
+2) For Addon, verify you can log into the web interface using the login details from the HWO
+3) For Addon, verify the software has the correct license installed after login in the addon web interface.",dtogloor,QEPVER-287,IQE-Project-Testing,Test Case,Major
+dtogloor,"TC_14_Provision : with Cascade Lake Processor Intel Xeon 4210 and RHEL 9.2, R1 Soft Addon","Verify that RHEL 9.x with R1Soft Addon   Provisioning process can be completed without errors with below configuration
+
+SERVER:  Cascade Lake Processor Intel Xeon 4210
+RAM: 32GB
+Hard Drive: Standard SATA SSD primary drive and NVMe secondary storage (Any Size)
+Chassis(Motherboard) :  SMC 
+NETWORK INTERFACE: Private and Private
+PORT SPEED: 25Gbps.                                                                                                     
+Os Addon- R1Soft                                                                                                   ","1) Login to server and check for all the configurations are avaliable as expected.                   
+2) For Addon, verify you can log into the web interface using the login details from the HWO
+3) For Addon, verify the software has the correct license installed after login in the addon web interface.",dtogloor,QEPVER-287,IQE-Project-Testing,Test Case,Major
+dtogloor,"TC_15_Provision : with AMD EPYC 7763 and RHEL 9.2, R1 Soft Addon","Verify that RHEL 9.x with R1Soft Addon   Provisioning process can be completed without errors with below configuration
+
+SERVER:  Cascade Lake Processor Intel Xeon 4210
+RAM: 32GB
+Hard Drive: Standard SATA SSD primary drive and NVMe secondary storage (Any Size)
+Chassis(Motherboard) :  SMC 
+NETWORK INTERFACE: Private and Private
+PORT SPEED: 25Gbps.                                                                                                     
+Os Addon- R1Soft                                                                                                   ","1) Login to server and check for all the configurations are avaliable as expected.                   
+2) For Addon, verify you can log into the web interface using the login details from the HWO
+3) For Addon, verify the software has the correct license installed after login in the addon web interface.",dtogloor,QEPVER-287,IQE-Project-Testing,Test Case,Major
+dtogloor,"TC_16_Reload : with Intel Xeon 8474 and RHEL 9.2, R1 Soft Addon","Verify that RHEL 9.x with R1Soft Addon   Provisioning process can be completed without errors with below configuration
+
+SERVER:  Intel Xeon 8474 Sapphire Rapids Processor
+RAM: 32GB                                                                                                            
+Provision OS: RHEL 9.2                                                                                       
+Reload OS: RHEL 9.2 
+Hard Drive: 16 drives any size
+Os Addon- R1Soft                                               ","1) Login to server and check for all the configurations are avaliable as expected.                   
+2) For Addon, verify you can log into the web interface using the login details from the HWO
+3) For Addon, verify the software has the correct license installed after login in the addon web interface.",dtogloor,QEPVER-287,IQE-Project-Testing,Test Case,Major
+dtogloor,"TC_17_Reload : with Cascade Lake Processor Intel Xeon 4210 and RHEL 9.2, R1 Soft Addon","Verify that RHEL 9.x with R1Soft Addon   Provisioning process can be completed without errors with below configuration
+
+SERVER:  Cascade Lake Processor Intel Xeon 4210
+RAM: 32GB                                                                                                            
+Provision OS: RHEL 9.2                                                                                       
+Reload OS: RHEL 9.2 
+Hard Drive: 12 drives any size
+Os Addon- R1Soft                           ","1) Login to server and check for all the configurations are avaliable as expected.                   
+2) For Addon, verify you can log into the web interface using the login details from the HWO
+3) For Addon, verify the software has the correct license installed after login in the addon web interface.",dtogloor,QEPVER-287,IQE-Project-Testing,Test Case,Major
+dtogloor,"TC_18_Reload : with AMD EPYC 7763 and RHEL 9.2, R1 Soft Addon","Verify that RHEL 9.x with R1Soft Addon   Provisioning process can be completed without errors with below configuration
+
+SERVER:  AMD EPYC 7763
+RAM: 32GB                                                                                                            
+Provision OS: RHEL 9.2                                                                                       
+Reload OS: RHEL 9.2 
+Hard Drive: 10 drives any size
+Os Addon- R1Soft                                                                                                    ","1) Login to server and check for all the configurations are avaliable as expected.                   
+2) For Addon, verify you can log into the web interface using the login details from the HWO
+3) For Addon, verify the software has the correct license installed after login in the addon web interface.",dtogloor,QEPVER-287,IQE-Project-Testing,Test Case,Major
+dtogloor,TC_19_Reclaim : Cancel HW of TC_12,Verify that RHEL 9.2 provison in TC-12 can be Reclaimed successfully without errors:,Verify HW sucessfully reclaimed,dtogloor,QEPVER-287,IQE-Project-Testing,Test Case,Major
+dtogloor,TC_20_Reclaim : Cancel HW of TC_13,Verify that RHEL 9.2 provison in TC-13 can be Reclaimed successfully without errors:,Verify HW sucessfully reclaimed,dtogloor,QEPVER-287,IQE-Project-Testing,Test Case,Major
+dtogloor,TC_21_Reclaim : Cancel HW of TC_14,Verify that RHEL 9.2 provison in TC-14 can be Reclaimed successfully without errors:,Verify HW sucessfully reclaimed,dtogloor,QEPVER-287,IQE-Project-Testing,Test Case,Major
+dtogloor,TC_22_Reclaim : Cancel HW of TC_15,Verify that RHEL 9.2 provison in TC-15 can be Reclaimed successfully without errors:,Verify HW sucessfully reclaimed,dtogloor,QEPVER-287,IQE-Project-Testing,Test Case,Major

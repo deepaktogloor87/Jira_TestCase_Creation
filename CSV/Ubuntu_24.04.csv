@@ -1,0 +1,15 @@
+Assignee,Summary,Test Plan,Verification,QE Assignee,Parent ID,Labels,Issue Type,Priority
+dtogloor,TC_01_Provision :  Cascade Lake Processor Intel Xeon 4210 and Ubuntu 24.04,"*Verify that Ubuntu 24.04 for   Provisioning process can be completed without errors with below configuration*
+
+* *SERVER*: Intel Xeon 8474 Sapphire Rapids Processor, Core count 96,Features
+GPU, UEFI capable, 25GbE, NVMe, SGX
+* *MOTHERBOARD*: Lenovo
+* *RAM*: 32 GB
+* *OS*: Ubuntu 24.04
+* *STORAGE DISK*: NVMe primary drive and NVMe secondary storage (Any size), Default partiion
+* *NETWORK INTERFACE*:  Public and Private
+* *PORT SPEED*: 25Gbps
+* *DRIVE CONTROLLER*: M.2 NVME","* Verify sucessfully able to Login
+* Verify pingable to any website
+* Verify Storage Capacity 
+* Verify OS Version",dtogloor,QEPVER-338,IQE-Project-Testing,Test Case,Major

@@ -1,0 +1,236 @@
+Assignee,Summary,Test Plan,Verification,QE Assignee,Parent Id,Issue ID,Labels,Issue Type,Priority
+sradharapu,TC_01_Provision : with 6416H SPR processor and CentOs9,"Verify that CentOS 9 Provisioning process can be completed without errors with below configuration
+
+* *SERVER*: SPR 6461H
+* *MOTHERBOARD*: ANY
+* *RAM*: 2048 GB
+* *OS*: CentOs 9
+* *DRIVE*: 1 Nos.
+* *NETWORK INTERFACE*:  Public and Private
+* *PORT SPEED*: 25 GHZ [~E810]
+* *DRIVE CONTROLLER*: Mirrorred M2 NVMe
+* *ADD-ON*: SGX","* Login to server and check for all the configurations are avaliable as expected
+
+* Validate Intel Speed Functionality ",sradharapu,QEPVER-239,QEPVER-244,IQE-Project-Testing,Test Case,Major
+dtogloor,TC_02_Provision : with 6416H SPR processor and Redhat 8.x-64,"Verify that Redhat 8.x-64 Provisioning process can be completed without errors with below configuration
+
+* *SERVER*: SPR 6461H
+* *MOTHERBOARD*: ANY
+* *RAM*: 512 GB
+* *OS*: Redhat 8.x-64
+* *DRIVE*: 1 Nos.
+* *NETWORK INTERFACE*:  Public and Private
+* *PORT SPEED*: 1 GHZ[~E710]
+* *DRIVE CONTROLLER*: Mirrorred M2 NVMe
+* *ADD-ON*: SGX","* Login to server and check for all the configurations are avaliable as expected
+
+* Validate Intel Speed Functionality ",dtogloor,QEPVER-239,QEPVER-244,IQE-Project-Testing,Test Case,Major
+sradharapu,TC_03_Provision : with 6416H SPR processor and Redhat 9.x-64,"Verify that Redhat 9.x-64 Provisioning process can be completed without errors with below configuration
+
+* *SERVER*: SPR 6461H
+* *MOTHERBOARD*: ANY
+* *RAM*: 1024 GB
+* *OS*: Redhat 9.x-64
+* *DRIVE*: 1 Nos.
+* *NETWORK INTERFACE*:  Public and Private
+* *PORT SPEED*: 25 GHz [~E810]
+* *DRIVE CONTROLLER*: Mirrorred M2 NVMe
+* *ADD-ON*: SGX","* Login to server and check for all the configurations are avaliable as expected
+
+* Validate Intel Speed Functionality ",sradharapu,QEPVER-239,QEPVER-244,IQE-Project-Testing,Test Case,Major
+dtogloor,TC_04_Provision : with 6416H SPR processor and Rocky Linux 8.x-64,"Verify that Rocky Linux 8.x-64 Provisioning process can be completed without errors with below configuration
+
+* *SERVER*: SPR 6461H
+* *MOTHERBOARD*: ANY
+* *RAM*: 256GB
+* *OS*: Rocky Linux 8.x-64
+* *DRIVE*: 1 Nos.
+* *NETWORK INTERFACE*:  Public and Private
+* *PORT SPEED*: 1 Ghz [~E710]
+* *DRIVE CONTROLLER*: Mirrorred M2 NVMe
+* *ADD-ON*: SGX","* Login to server and check for all the configurations are avaliable as expected
+
+* Validate Intel Speed Functionality ",dtogloor,QEPVER-239,QEPVER-244,IQE-Project-Testing,Test Case,Major
+sradharapu,TC_05_Provision : with 6416H SPR processor and Rocky Linux 9.x-64,"Verify that Rocky Linux 9.x-64 Provisioning process can be completed without errors with below configuration
+
+* *SERVER*: SPR 6461H
+* *MOTHERBOARD*: ANY
+* *RAM*: 2048 GB
+* *OS*: Rocky Linux 9.x-64
+* *DRIVE*: 1 Nos.
+* *NETWORK INTERFACE*:  Public and Private
+* *PORT SPEED*: 25 GHz [~E810]
+* *DRIVE CONTROLLER*: Mirrorred M2 NVMe
+* *ADD-ON*: SGX","* Login to server and check for all the configurations are avaliable as expected
+
+* Validate Intel Speed Functionality ",sradharapu,QEPVER-239,QEPVER-244,IQE-Project-Testing,Test Case,Major
+dtogloor,TC_06_Provision : with 6416H SPR processor and Ubuntu 22.04-64,"Verify that Ubuntu 22.04-64 Provisioning process can be completed without errors with below configuration
+
+* *SERVER*: SPR 6461H
+* *MOTHERBOARD*: ANY
+* *RAM*: 256 GB
+* *OS*: Ubuntu 22.04-64
+* *DRIVE*: 36 Nos.
+* *NETWORK INTERFACE*:  Public and Private
+* *PORT SPEED*: 1 Ghz [~E710]
+* *DRIVE CONTROLLER*: Mirrorred M2 NVMe
+* *ADD-ON*: SGX","* Login to server and check for all the configurations are avaliable as expected
+
+* Validate Intel Speed Functionality ",dtogloor,QEPVER-239,QEPVER-244,IQE-Project-Testing,Test Case,Major
+sradharapu,TC_07_Provision : with 6416H SPR processor and Ubuntu 22.04-64,"Verify that Ubuntu 22.04-64 Provisioning process can be completed without errors with below configuration
+
+* *SERVER*: SPR 6461H
+* *MOTHERBOARD*: ANY
+* *RAM*: 2048 GB
+* *OS*: Ubuntu 22.04-64
+* *DRIVE*: 1 Nos.
+* *NETWORK INTERFACE*:  Public and Private
+* *PORT SPEED*: 25 Ghz [~E810]
+* *DRIVE CONTROLLER*: Mirrorred M2 NVMe
+* *ADD-ON*: SGX","* Login to server and check for all the configurations are avaliable as expected
+
+* Validate Intel Speed Functionality ",sradharapu,QEPVER-239,QEPVER-244,IQE-Project-Testing,Test Case,Major
+dtogloor,TC_08_Provision : with 6416H SPR processor and Microsoft Windows 2019 FULL STD 64 bit 2019 FULL STD x64,"Verify that Microsoft Windows 2019 FULL STD 64 bit 2019 FULL STD x64 Provisioning process can be completed without errors with below configuration
+
+* *SERVER*: SPR 6461H
+* *MOTHERBOARD*: ANY
+* *RAM*: 2048 GB
+* *OS*: Microsoft Windows 2019 FULL STD 64 bit 2019 FULL STD x64
+* *DRIVE*: 1 Nos.
+* *NETWORK INTERFACE*:  Public and Private
+* *PORT SPEED*: 1 Ghz [~E710]
+* *DRIVE CONTROLLER*: Mirrorred M2 NVMe
+* *ADD-ON*: SGX","* Login to server and check for all the configurations are avaliable as expected
+
+* Validate Intel Speed Functionality ",dtogloor,QEPVER-239,QEPVER-244,IQE-Project-Testing,Test Case,Major
+sradharapu,TC_09_Provision : with 6416H SPR processor and Microsoft Windows 2022 FULL STD 64 bit 2022 FULL STD x64,"Verify that Microsoft Windows 2022 FULL STD 64 bit 2022 FULL STD x64 Provisioning process can be completed without errors with below configuration
+
+* *SERVER*: SPR 6461H
+* *MOTHERBOARD*: ANY
+* *RAM*: 256 GB
+* *OS*: Microsoft Windows 2022 FULL STD 64 bit 2022 FULL STD x64
+* *DRIVE*: 1 Nos.
+* *NETWORK INTERFACE*:  Public and Private
+* *PORT SPEED*: 25 Ghz [~E810]
+* *DRIVE CONTROLLER*: Mirrorred M2 NVMe
+* *ADD-ON*: SGX","* Login to server and check for all the configurations are avaliable as expected
+
+* Validate Intel Speed Functionality ",sradharapu,QEPVER-239,QEPVER-244,IQE-Project-Testing,Test Case,Major
+dtogloor,TC_10_Provision : with 6416H SPR processor and VMware ESXi 7.0u3i,"Verify that VMware ESXi 7.0u3i Provisioning process can be completed without errors with below configuration
+
+* *SERVER*: SPR 6461H
+* *MOTHERBOARD*: ANY
+* *RAM*: 256 GB
+* *OS*: VMware ESXi 7.0u3i
+* *DRIVE*: 1 Nos.
+* *NETWORK INTERFACE*:  Public and Private
+* *PORT SPEED*: 1 Ghz [~E710]
+* *DRIVE CONTROLLER*: Mirrorred M2 NVMe
+* *ADD-ON*: SGX","* Login to server and check for all the configurations are avaliable as expected
+
+* Validate Intel Speed Functionality ",dtogloor,QEPVER-239,QEPVER-244,IQE-Project-Testing,Test Case,Major
+sradharapu,TC_11_Provision : with 6416H SPR processor and VMware ESXi 7.0u3i,"Verify that VMware ESXi 7.0u3i Provisioning process can be completed without errors with below configuration
+
+* *SERVER*: SPR 6461H
+* *MOTHERBOARD*: ANY
+* *RAM*: 256 GB
+* *OS*: VMware ESXi 7.0u3i
+* *DRIVE*: 1 Nos.
+* *NETWORK INTERFACE*:  Public and Private
+* *PORT SPEED*: 1 Ghz [~E810]
+* *DRIVE CONTROLLER*: Mirrorred M2 NVMe
+* *ADD-ON*: SGX","* Login to server and check for all the configurations are avaliable as expected
+
+* Validate Intel Speed Functionality ",sradharapu,QEPVER-239,QEPVER-244,IQE-Project-Testing,Test Case,Major
+dtogloor,TC_12_Provision : with 6416H SPR processor and VMware ESXi 8.0u1,"Verify that VMware VMware ESXi 8.0u1 Provisioning process can be completed without errors with below configuration
+
+* *SERVER*: SPR 6461H
+* *MOTHERBOARD*: ANY
+* *RAM*: 2048 GB
+* *OS*: VMware ESXi 8.0u1
+* *DRIVE*: 1 Nos.
+* *NETWORK INTERFACE*:  Public and Private
+* *PORT SPEED*: 25 Ghz [~E710]
+* *DRIVE CONTROLLER*: Mirrorred M2 NVMe
+* *ADD-ON*: SGX","* Login to server and check for all the configurations are avaliable as expected
+
+* Validate Intel Speed Functionality ",dtogloor,QEPVER-239,QEPVER-244,IQE-Project-Testing,Test Case,Major
+sradharapu,TC_13_Provision : with 6416H SPR processor and VMware ESXi 8.0u1,"Verify that VMware VMware ESXi 8.0u1 Provisioning process can be completed without errors with below configuration
+
+* *SERVER*: SPR 6461H
+* *MOTHERBOARD*: ANY
+* *RAM*: 2048 GB
+* *OS*: VMware ESXi 8.0u1
+* *DRIVE*: 1 Nos.
+* *NETWORK INTERFACE*:  Public and Private
+* *PORT SPEED*: 25 Ghz [~E810]
+* *DRIVE CONTROLLER*: Mirrorred M2 NVMe
+* *ADD-ON*: SGX","* Login to server and check for all the configurations are avaliable as expected
+
+* Validate Intel Speed Functionality ",sradharapu,QEPVER-239,QEPVER-244,IQE-Project-Testing,Test Case,Major
+sradharapu,TC_14_Reload : TC-01 with CentOs 9,"*Verify that reload process for TC-01*
+* Previous OS: Centos 9
+* Next OS : Centos 9","* Login to server and check for all the configurations are avaliable as expected
+
+* Validate Intel Speed Functionality ",sradharapu,QEPVER-239,QEPVER-244,IQE-Project-Testing,Test Case,Major
+dtogloor,TC_15_Reload : TC-02 with Redhat 9,"*Verify that reload process for TC-02*
+* Previous OS: Redhat 8
+* Next OS : Redhat 9","* Login to server and check for all the configurations are avaliable as expected
+
+* Validate Intel Speed Functionality ",dtogloor,QEPVER-239,QEPVER-244,IQE-Project-Testing,Test Case,Major
+sradharapu,TC_16_Reload : TC-03 with Redhat 8,"*Verify that reload process for TC-03*
+* Previous OS: Redhat 9
+* Next OS : Redhat 8","* Login to server and check for all the configurations are avaliable as expected
+
+* Validate Intel Speed Functionality ",sradharapu,QEPVER-239,QEPVER-244,IQE-Project-Testing,Test Case,Major
+dtogloor,TC_17_Reload : TC-04 with Rocky Linux 9,"*Verify that reload process for TC-04*
+* Previous OS: Rocky linux 8
+* Next OS : Redhat 9","* Login to server and check for all the configurations are avaliable as expected
+
+* Validate Intel Speed Functionality ",dtogloor,QEPVER-239,QEPVER-244,IQE-Project-Testing,Test Case,Major
+sradharapu,TC_18_Reload : TC-05 with Rocky Linux 8,"*Verify that reload process for TC-05*
+* Previous OS: Rocky linux 9
+* Next OS : Redhat 8","* Login to server and check for all the configurations are avaliable as expected
+
+* Validate Intel Speed Functionality ",sradharapu,QEPVER-239,QEPVER-244,IQE-Project-Testing,Test Case,Major
+dtogloor,TC_19_Reload : TC-06 with Ubuntu 22.04-64,"*Verify that reload process for TC-06*
+* Previous OS: Ubuntu 22.04-64
+* Next OS : Ubuntu 22.04-64","* Login to server and check for all the configurations are avaliable as expected
+
+* Validate Intel Speed Functionality ",dtogloor,QEPVER-239,QEPVER-244,IQE-Project-Testing,Test Case,Major
+sradharapu,TC_20_Reload : TC-07 with Ubuntu 24.04-64,"*Verify that reload process for TC-07*
+* Previous OS: Ubuntu 22.04-64
+* Next OS : Ubuntu 24.04-64","* Login to server and check for all the configurations are avaliable as expected
+
+* Validate Intel Speed Functionality ",sradharapu,QEPVER-239,QEPVER-244,IQE-Project-Testing,Test Case,Major
+dtogloor,TC_21_Reload : TC-08 with Microsoft Windows 2022 FULL STD 64 bit 2019 FULL STD x64,"*Verify that reload process for TC-08*
+* Previous OS: Microsoft Windows 2022 FULL STD 64 bit 2019 FULL STD x64
+* Next OS : Microsoft Windows 2022 FULL STD 64 bit 2019 FULL STD x64","* Login to server and check for all the configurations are avaliable as expected
+
+* Validate Intel Speed Functionality ",dtogloor,QEPVER-239,QEPVER-244,IQE-Project-Testing,Test Case,Major
+sradharapu,TC_22_Reload : TC-09 with Microsoft Windows 2022 FULL STD 64 bit 2022 FULL STD x64,"*Verify that reload process for TC-09*
+* Previous OS: Microsoft Windows 2022 FULL STD 64 bit 2022 FULL STD x64
+* Next OS : Microsoft Windows 2022 FULL STD 64 bit 2019 FULL STD x64","* Login to server and check for all the configurations are avaliable as expected
+
+* Validate Intel Speed Functionality ",sradharapu,QEPVER-239,QEPVER-244,IQE-Project-Testing,Test Case,Major
+dtogloor,TC_23_Reload : TC-10 with Microsoft VMware ESXi 8.0u1,"*Verify that reload process for TC-10*
+* Previous OS: VMware ESXi 7.0u3i
+* Next OS : Microsoft VMware ESXi 8.0u1","* Login to server and check for all the configurations are avaliable as expected
+
+* Validate Intel Speed Functionality ",dtogloor,QEPVER-239,QEPVER-244,IQE-Project-Testing,Test Case,Major
+sradharapu,TC_23_Reload : TC-11 with VMware ESXi 7.0u3i,"*Verify that reload process for TC-11*
+* Previous OS: Microsoft VMware ESXi 8.0u1
+* Next OS : VMware ESXi 7.0u3i","* Login to server and check for all the configurations are avaliable as expected
+
+* Validate Intel Speed Functionality ",sradharapu,QEPVER-239,QEPVER-244,IQE-Project-Testing,Test Case,Major
+sradharapu,TC_24_Reclaim : the server TC_14,*Verify that the server is reclaimed sucessfully*,*Validate Reclaimed Successfully*,sradharapu,QEPVER-239,QEPVER-244,IQE-Project-Testing,Test Case,Major
+dtogloor,TC_25_Reclaim : the server TC_15,*Verify that the server is reclaimed sucessfully*,*Validate Reclaimed Successfully*,dtogloor,QEPVER-239,QEPVER-244,IQE-Project-Testing,Test Case,Major
+sradharapu,TC_26_Reclaim : the server TC_15,*Verify that the server is reclaimed sucessfully*,*Validate Reclaimed Successfully*,sradharapu,QEPVER-239,QEPVER-244,IQE-Project-Testing,Test Case,Major
+dtogloor,TC_27_Reclaim : the server TC_16,*Verify that the server is reclaimed sucessfully*,*Validate Reclaimed Successfully*,dtogloor,QEPVER-239,QEPVER-244,IQE-Project-Testing,Test Case,Major
+sradharapu,TC_28_Reclaim : the server TC_17,*Verify that the server is reclaimed sucessfully*,*Validate Reclaimed Successfully*,sradharapu,QEPVER-239,QEPVER-244,IQE-Project-Testing,Test Case,Major
+dtogloor,TC_29_Reclaim : the server TC_18,*Verify that the server is reclaimed sucessfully*,*Validate Reclaimed Successfully*,dtogloor,QEPVER-239,QEPVER-244,IQE-Project-Testing,Test Case,Major
+sradharapu,TC_30_Reclaim : the server TC_19,*Verify that the server is reclaimed sucessfully*,*Validate Reclaimed Successfully*,sradharapu,QEPVER-239,QEPVER-244,IQE-Project-Testing,Test Case,Major
+dtogloor,TC_31_Reclaim : the server TC_20,*Verify that the server is reclaimed sucessfully*,*Validate Reclaimed Successfully*,dtogloor,QEPVER-239,QEPVER-244,IQE-Project-Testing,Test Case,Major
+sradharapu,TC_32_Reclaim : the server TC_21,*Verify that the server is reclaimed sucessfully*,*Validate Reclaimed Successfully*,sradharapu,QEPVER-239,QEPVER-244,IQE-Project-Testing,Test Case,Major
+dtogloor,TC_33_Reclaim : the server TC_22,*Verify that the server is reclaimed sucessfully*,*Validate Reclaimed Successfully*,dtogloor,QEPVER-239,QEPVER-244,IQE-Project-Testing,Test Case,Major
+sradharapu,TC_34_Reclaim : the server TC_23,*Verify that the server is reclaimed sucessfully*,*Validate Reclaimed Successfully*,sradharapu,QEPVER-239,QEPVER-244,IQE-Project-Testing,Test Case,Major

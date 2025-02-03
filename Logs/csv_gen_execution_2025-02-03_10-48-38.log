@@ -1,0 +1,11 @@
+2025-02-03 10:48:38,459 - DEBUG - Debug message
+2025-02-03 10:48:38,460 - INFO - Info message
+2025-02-03 10:48:38,460 - WARNING - Warning message
+2025-02-03 10:48:38,460 - ERROR - Error message
+2025-02-03 10:48:38,460 - CRITICAL - Critical message
+2025-02-03 10:48:38,543 - INFO - Fetching Excel sheet names with prefix 'TC_'
+2025-02-03 10:48:38,595 - DEBUG - Found sheet names: ['TC_AddonWithR1Soft']
+2025-02-03 10:48:38,596 - INFO - Excluding sheets based on user preference
+2025-02-03 10:48:38,596 - DEBUG - No sheets excluded as per user choice
+2025-02-03 10:48:38,597 - INFO - Creating CSV from selected sheets
+2025-02-03 10:48:38,673 - INFO - CSV created and saved to CSV/RHEL9.2.csv
